@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  li.completed span {
+    text-decoration: line-through;
+    color: #888; /* Grey out completed tasks */
+    cursor:pointer;
+  }
+  
+  
+  h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #333;
+    font-family: 'Pacifico', cursive;
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 1px; /* Adds some space between the title and the to-do list */
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  form button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    cursor:pointer;
+  }
+  
+  li button {
+    padding: 2px 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    margin-left: 5px;
+    background-color: #f44336;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  li button.edit {
+    margin-right: 5px;
+    background-color: #1565c0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  li button.delete {
+    background-color: #f44336;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  li button.save {
+    display: none;
+    margin-right: 5px;
+    background-color: #86B049;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  li span {
+    flex: 1;
+    margin-right: 10px;
+    word-break: break-all;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  li button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
